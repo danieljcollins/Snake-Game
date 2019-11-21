@@ -1,0 +1,26 @@
+<html>
+	<head>
+		<link rel="stylesheet" type="text/css" href="style.css">
+		
+	</head>
+	<body>
+		<h1>Snake</h1>
+		<br>
+		<div class="top-tray">
+			<label id="score-keeper">Score = 0</label>
+			<p>How to play: Use the W, A, S, D keys to move the </p>
+			<p>snake towards the red piece of food. Avoid hitting the </p>
+			<p>walls and hitting the snake's own body as it grows.</p>
+			<br>
+			<p>Refresh the page (F5) to reset the game!</p>
+			<br>
+			<br>
+			<button id="start-game-button" onclick="drawFrame()">Start Game!</button>
+			<br>
+			<!-- <button id="reset-game-button" onclick="drawFrame()">Reset Game!</button> -->
+		</div>
+		<br>
+		<canvas id="play-area" width="800px" height="600px"></canvas>		
+		<script src="snake.js"></script>
+	</body>
+</html>

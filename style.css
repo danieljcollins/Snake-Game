@@ -1,0 +1,52 @@
+h1{
+	background-color: #8a8a5c;
+	border: 10px solid black;
+	display: flex;
+	align-items: center;
+	justify-content: center
+}
+
+p{
+	color: yellow;
+	display: flex;
+	align-items: center;
+	justify-content: center;
+}
+
+#score-keeper{
+	color: yellow;
+	display: flex;
+	align-items: center;
+	justify-content: center;
+}
+
+#play-area{
+	background-color: #8a8a5c;
+	width: 800px;
+	height: 600px;
+	border: 10px solid black;
+	display: block;
+	float: right;
+	margin: 0 auto 0 auto;		
+}
+
+#start-game-button{
+	width: 400px;
+	height: 40px;
+	display: block;
+	margin: 0 auto 0 auto;
+}
+#reset-game-button{
+	width: 400px;
+	height: 40px;
+	display: block;
+	margin: 0 auto 0 auto;
+}
+
+.top-tray{
+	float: left
+}	
+
+body{
+	background-color: #5c5c3d;
+}
